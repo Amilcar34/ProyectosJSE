@@ -17,7 +17,7 @@ public class Suma {
 
 		int r = a + b;
 
-		System.out.println("Sr: " + nombre + "la suma es: " + r);
+		System.out.println("Sr: " + nombre + " la suma es: " + r);
 	}
 
 }
