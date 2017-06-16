@@ -18,5 +18,12 @@ public class ManejoDeString {
 	System.out.println(mes);
 	System.out.println(ano);
 	System.out.println(dia);
+	
+	String fecha = "15/06/2017";
+	String mesd = fecha.substring(0, 2);
+	String ann = fecha.substring(3, 5);
+	String nDi = fecha.substring(6, 10);
+	
+	System.out.print(mesd + " " + ann + " " + nDi);
 	}
 }
