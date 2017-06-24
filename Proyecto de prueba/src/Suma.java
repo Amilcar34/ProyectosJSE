@@ -7,7 +7,7 @@ public class Suma {
 
 		String segundoNumero;
 		
-		String nombre = JOptionPane.showInputDialog("ingrese nombre");
+	//	String nombre = JOptionPane.showInputDialog("ingrese nombre");
 		
 		String primerNumero = JOptionPane.showInputDialog("Introduce 1er numero");
 		int a = Integer.parseInt(primerNumero);
@@ -17,7 +17,7 @@ public class Suma {
 
 		int r = a + b;
 
-		System.out.println("Sr: " + nombre + " la suma es: " + r);
+		System.out.println(" la suma es: " + r);
 	}
 
 }
